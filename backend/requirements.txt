@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+python-multipart
+faster-whisper
+torch
+torchaudio
+transformers
+librosa
+soundfile
+numpy
+pandas
+pydantic
+python-dotenv
+scikit-learn

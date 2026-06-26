@@ -1,4 +1,4 @@
-# 🛡️ CallShield AI
+# voiceshield-voice-threat-detection
 
 **Real-time audio threat detection using Speech Emotion Recognition + NLP.**
 
@@ -182,6 +182,3 @@ Emotion × NLP lookup table → Risk Level
 
 ---
 
-## 📝 License
-
-MIT License — see [LICENSE](LICENSE)

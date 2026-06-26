@@ -10,7 +10,7 @@
 
 ## 🧠 What It Does
 
-CallShield AI analyses audio calls (live or uploaded) and detects threats in real-time by combining two AI models:
+voiceshield-voice-threat-detection analyses audio calls (live or uploaded) and detects threats in real-time by combining two AI models:
 
 | Model | Task | Architecture | Performance |
 |---|---|---|---|
@@ -66,7 +66,7 @@ Audio Call
 
 ### Backend
 ```bash
-cd callshield-ai
+cd voiceshield-voice-threat-detection
 python -m venv venv
 venv\Scripts\activate          # Windows
 pip install -r backend/requirements.txt
@@ -88,7 +88,7 @@ npm run dev
 ## 🗂️ Project Structure
 
 ```
-callshield-ai/
+voiceshield-voice-threat-detection/
 ├── backend/
 │   ├── app/
 │   │   ├── api/

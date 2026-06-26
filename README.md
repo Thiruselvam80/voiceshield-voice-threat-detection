@@ -5,7 +5,6 @@
 [![Python](https://img.shields.io/badge/Python-3.10-blue)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-green)](https://fastapi.tiangolo.com)
 [![React](https://img.shields.io/badge/React-18-61DAFB)](https://reactjs.org)
-[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ---
 

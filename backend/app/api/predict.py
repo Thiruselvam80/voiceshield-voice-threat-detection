@@ -19,8 +19,8 @@ from app.services.risk_scorer import build_risk_report
 
 router = APIRouter(prefix="/predict", tags=["predict"])
 
-# Absolute path — works regardless of uvicorn launch directory
-UPLOAD_DIR = Path(__file__).resolve().parents[3] / "uploads"
+# Store uploads under backend root (e.g., /app/uploads in Docker)
+UPLOAD_DIR = Path(__file__).resolve().parents[2] / "uploads"
 UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
 
 SAMPLE_RATE = 16_000
